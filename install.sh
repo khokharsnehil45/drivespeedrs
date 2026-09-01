@@ -2,7 +2,7 @@
 set -e
 
 # Target GitHub Repository (update with your GitHub username)
-REPO="your-username/drivespeedrs"
+REPO="khokharsnehil45/drivespeedrs"
 BINARY_NAME="drivespeedrs"
 INSTALL_DIR="${INSTALL_DIR:-/usr/local/bin}"
 

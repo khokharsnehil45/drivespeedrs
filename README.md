@@ -18,7 +18,7 @@ A blazing-fast, cross-platform CLI tool written in Rust to benchmark the true ph
 Install the pre-compiled binary instantly:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<YOUR-USERNAME>/drivespeedrs/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/khokharsnehil45/drivespeedrs/main/install.sh | bash
 ```
 
 Or install via `cargo`:
