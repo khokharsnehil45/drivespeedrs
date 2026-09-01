@@ -1,0 +1,23 @@
+[package]
+name = "drivespeedrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kevin <kevin@example.com>"]
+description = "⚡ Fast, beautiful cross-platform disk read/write speed benchmark utility written in Rust"
+license = "MIT"
+readme = "README.md"
+
+[[bin]]
+name = "drivespeedrs"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+sysinfo = "0.33"
+indicatif = { version = "0.17", features = ["rayon"] }
+comfy-table = "7.1"
+colored = "3.0"
+rand = "0.9"
+anyhow = "1.0"
+dialoguer = "0.11"
+libc = "0.2"
